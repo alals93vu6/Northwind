@@ -2,7 +2,7 @@
 {
     public class CustomerItem
     {
-        public int CustomerID { get; set; } //客戶ID
+        public string? CustomerID { get; set; } //客戶ID
         public string? CompanyName { get; set; } //所在公司名稱
         public string? ContactName { get; set; } //客戶姓名
         public string? ContactTitle { get; set; } //客戶頭銜
